@@ -1,0 +1,337 @@
+body{
+	margin:-20px auto;
+	min-width: 1280px;
+}
+
+/****************************************
+**************MENU***********************
+****************************************/
+
+#logo{
+	background:url(../img/logo.png) no-repeat ;
+	background-size: 100% auto;
+	height:50px;
+	width:250px;
+	margin-top: 10px;
+	margin-left:-50px;
+
+}
+
+.navbar{
+	background:rgba(255,255,255,0.9);
+	height: 80px;
+	padding-top:10px;
+		box-shadow: 0px 1px 10px black;
+}
+
+
+
+
+
+/****************************************
+**************MAIN***********************
+****************************************/
+
+#main{
+	text-align: center;
+	width:100%;
+	height: 700px;
+	background:url(../img/main.jpg) no-repeat;
+	background-size: 100% 700px;
+	box-shadow: 0px 1px 10px black;
+}
+
+h1{
+	color:white;
+	padding-top:20%
+}
+#main > h2{
+	color:white;
+
+}
+#signIn{
+	display:inline-block;
+
+} 
+
+#account{
+	width:200px;
+	height:30px;
+	display:inline-block;
+	color: white;
+	border: solid white 1px;
+	border-radius: 5px;
+	padding-top: 5px;
+	margin-right: 5px;
+	background:rgba(0,0,0,0.5)
+}
+
+#register{
+	width:200px;
+	display:inline-block;
+	color: white;
+	border: solid white 1px;
+	border-radius: 5px;
+	height:30px;
+	padding-top: 5px;
+	background:rgba(0,0,0,0.5)
+}
+
+#register:hover{
+	background:rgba(255,255,255,0.5);
+	color: black;
+	border: solid black 1px;
+}
+
+#account:hover{
+	background:rgba(255,255,255,0.5);
+	color: black;
+	border: none;
+}
+
+@media (max-width: 850px) {
+
+#logo{
+	margin-left: 0px;
+	height:40px;
+	width:200px;
+}
+	
+}
+
+
+
+/**************************************
+*****************PRESENTATION**********
+**************************************/
+
+#presentation{
+	width:100%;
+	height:550px;
+	background: white;
+	color:black;
+	padding-left: 100px;
+	padding-right: 100px;
+	
+}
+
+#containt{
+	margin-top: 20px;
+	text-align:center;
+	height: 400px;
+}
+
+/*****COMPETENCES*****/
+#competences{
+	transition: all 200ms ease-in;
+    transform: scale(1); 
+	display:inline-block;
+	width:400px;
+	height:410px;
+	border:solid silver 1px;
+	margin-right: 50px;
+	box-shadow: 0px 1px 10px black;
+}
+
+#competences:hover{
+	transition: all 200ms ease-in;
+	transform: scale(1.1);
+}
+#photo1{
+
+	width:100%;
+	height:200px;
+	background:url(../img/competences.jpg) no-repeat;
+	background-size: 100% 200px;
+}
+
+#titleCompetences{
+	background:#EDEDED;
+	width:100%;
+	height:50px;
+	margin-top:-20px;
+}
+#textCompetences{
+	text-align:left;
+	padding-top:10px;
+	background:white;
+	padding-left:15px;
+}
+
+#competencesPlus{
+	position:absolute;
+	width:100%;
+	height:50px;
+	background:#EDEDED;
+	bottom:0;
+	padding-top:10px;
+}
+
+#competencesPlus:hover{
+	background:silver;
+	color:white
+}
+
+/*******INFORMATION********/
+#informations{
+	transition: all 200ms ease-in;
+	transform: scale(1);
+	display:inline-block;
+	width:400px;
+	height:410px;
+	border:solid silver 1px;
+	vertical-align: top; 
+	box-shadow: 0px 1px 10px black;
+}
+
+#informations:hover{
+	transition: all 200ms ease-in;
+	transform: scale(1.1);
+	
+}
+#photo2{
+	width:100%;
+	height:200px;
+	background:url(../img/informations.jpg) no-repeat;
+	background-size: 100% 200px;
+	
+}
+
+#titleInformations{
+	background:#EDEDED;
+	width:100%;
+	height:50px;
+	margin-top:-20px;
+
+
+}
+
+#textInformations{
+
+	text-align:left;
+	background:white;
+	padding-left:15px;
+	padding-top:10px;
+
+}
+
+#informationsPlus{
+	position:absolute;
+	width:100%;
+	height:50px;
+	background:#EDEDED;
+	bottom:0;
+	padding-top:10px;
+}
+#informationsPlus:hover{
+	background:silver;
+	color:white;
+}
+
+/***********************************
+**************FIND LAWYER***********
+***********************************/
+
+#findLawyer{
+	width:100%;
+	height:300px;
+	background:#03224C;
+	box-shadow: 0px 1px 10px black;
+}
+
+#lawyer{
+	display:inline-block;
+	width:500px;
+	height:300px;
+	background:url(../img/avocat.jpg) no-repeat;
+	background-size:500px auto;
+	float:right;
+}
+
+#searchLawyer{
+	display:inline-block;
+	color:white;
+	text-align:center;
+	width:60%;
+	height:300px;
+	vertical-align:top;
+}
+
+
+
+
+/************************************
+****************MAP******************
+************************************/
+
+#findUs{
+	
+	text-align:center;
+}
+#map{
+	margin:0 auto;
+	width:950px;
+	height:400px;
+	box-shadow: 0px 1px 10px black;
+}
+
+
+
+/************************************
+**************MODAL******************
+************************************/
+
+.input-group{
+	margin: 0 auto;
+	width:70%;
+}
+input{
+	margin-top:10px;
+}
+
+
+/**********************************
+************FOOTER*****************
+**********************************/
+
+footer{
+	text-align:center;
+	width:100%;
+	color:black;
+}
+
+
+#logo2{
+	background:url(../img/logo.png) no-repeat ;
+	background-size: 100% auto;
+	height:50px;
+	width:250px;
+	margin:0 auto;
+
+}
+
+
+#fb{
+		display:inline-block;
+	background:url(../img/fb.jpg) no-repeat ;
+	width:30px;
+	height:30px;
+	background-size: 100% auto;
+	margin-right:10px;
+}
+#twitter{
+		display:inline-block;
+	background:url(../img/twitter.png) no-repeat ;
+	width:30px;
+	height:30px;
+	background-size: 100% auto;
+	margin-right:10px;
+}
+#in{
+		display:inline-block;
+	background:url(../img/in.jpg) no-repeat ;
+	width:30px;
+	height:30px;
+	background-size: 100% auto;
+}
+

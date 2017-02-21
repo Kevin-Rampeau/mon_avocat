@@ -1,0 +1,257 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+	<!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	
+    <link href="css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+	<div id="menu">	
+	
+		<!-- Navigation -->
+		<nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+			<div class="container topnav">
+
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<div id="logo"></div>
+				</div>
+
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="https://www.mon-avocat.fr/"><img src="img/home.png"  style="width:20px;height:20px;"> HOME</a>
+						</li>
+						<li>
+							<a href="https://www.mon-avocat.fr/choisir-son-avocat">CHOISIR SON AVOCAT </a>
+						</li>
+						<li>
+							<a href="https://www.mon-avocat.fr/actualite">ACTUALITES</a>
+						</li>
+						<li>
+							<a href="https://www.mon-avocat.fr/partenaires">PARTENAIRES</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+	<!-- Main -->
+	<div id="main">
+		<h1>Cabinet PwC Société d'Avocats Strasbourg</h1>
+		<h2>Cabinet d'avocat à Strasbourg</h2>
+		<div id="signIn">
+			<div id="account"data-toggle="modal" data-target="#myModal" >MON COMPTE </div>
+			<div id="register"data-toggle="modal" data-target="#myModal" >REJOIGNEZ NOUS</div>
+		</div>
+	</div>
+	
+	<!-- presentation -->
+	<div id="presentation">
+		<h2>Un cabinet au cœur de Paris</h2>
+		<p>Le cabinet PwC Société d'Avocats Strasbourg appartient au réseau international d'entités françaises et étrangères exerçant leurs services professionnels sous la marque PwC, présent dans plus de 157 pays et fédéré par des valeurs partagées par l'ensemble de ses membres.</p>
+		<div id="containt">
+			<div id="competences">
+				<div id="photo1"></div>
+				<div id="titleCompetences">
+				<h2>Nos compétences</h2>
+				</div>
+				<div id="textCompetences">
+					<p>Le cabinet PwC Société d'Avocats Strasbourg est situé 230, avenue de Colmar et met ses compétences à la disposition de ses clients, tant en matière de conseil qu'en matière judiciaire. Le cabinet vous apporte assistance et conseils dans de nombreux domaines.</p>
+				</div>
+				<div id="competencesPlus" data-toggle="modal" data-target="#competenceModal">En savoir plus</div>
+				
+			</div>
+
+			<div id="informations">
+				<div id="photo2"></div>
+				<div id="titleInformations">	
+				<h2>Informations</h2>
+				</div>
+				<div id="textInformations">
+					<p>Moyens de paiement : chèques, virements, espèces, CB.</p>
+					<p>Ouvert du lundi au vendredi de 9h a 19h.</p>
+					<p> Langues parlées: Allemand, Anglais, Francais.
+				</div>
+				<div id="informationsPlus" data-toggle="modal" data-target="#modalInfo">En savoir plus</div>	
+			</div>
+		</div>
+	</div>
+	
+	<!--find a lawyer-->
+	<div id="findLawyer">
+		<div id="searchLawyer">
+			<h2>Trouvez un avocat</h2>
+			<select class=form-control style="width:400px; margin:30px auto;">
+				<option value=un>Droit de la famille, des personnes et de leur patrimoine</option>
+				<option value=deux>Droit pénal</option>
+				<option value=trois>Droit du travail</option>
+				<option value=trois>Divorce</option>
+				<option value=trois>Droit civil</option>
+				<option value=trois>Droit commercial et de la concurrence</option>
+				<option value=trois>Droit de l'immobilier</option>
+				<option value=trois>Droit des affaires</option>
+				<option value=trois>Droit social</option>
+				<option value=trois>Droit du dommage corporel</option>
+			</select>
+			<select class=form-control style="width:400px; margin:0 auto;">
+				<option value=un>Paris</option>
+				<option value=deux>Villeurbanne</option>
+				<option value=trois>Tours</option>
+				<option value=trois>Toulouse</option>
+				<option value=trois>Toulon</option>
+				<option value=trois>Strasbourg</option>
+				<option value=trois>Saint-Quentin-en-Yvelines</option>
+				<option value=trois>Saint-Étienne</option>
+				<option value=trois>Rouen</option>
+				<option value=trois>Rennes</option>
+				<option value=trois>Reims</option>
+			</select>
+			 <button type="button" class="btn btn-default" style="width:300px; margin-top:30px;">Rechercher</button>
+		</div>
+		
+		<div id="lawyer"></div>
+		
+	</div>	
+	
+	<!--Map-->
+	<div id="findUs">
+		<h2>Où nous trouver</h2>
+		<p>230, avenue de Colmar, CS 90240, 67089 Strasbourg, France</p>
+		<div id="map"></div>
+	</div>
+	<hr>
+	<!-- Footer -->
+	<footer>
+	<div id="logo2"></div>
+	
+	<p>Contactez-nous  -  Mentions légales  -  CGU  -  CPPS/CGV  -  © 2016 Mon Avocat. All rights reserved.</p>
+	<div id="sn">
+		<div id="fb"></div>
+		<div id="twitter"></div>
+		<div id="in"></div>
+	</div>
+	</footer>
+	
+	
+	
+	
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+	
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXdjFZV3K99s6OEpt118I_OU1e6e0-8Yk"></script>
+    <script src="js/test.js"></script>
+</body>
+
+</html>
+
+
+<!-- Modal -->
+
+<!--Registration-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document" style="text-align:center">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Veuillez saisir vos informations</h4>
+      </div>
+      <div class="modal-body"  >
+		<div class="input-group">
+			<input type="text" class="form-control" placeholder="Prénom">
+		</div>
+		<div class="input-group">
+			<input type="text" class="form-control" placeholder="Nom">
+			
+		</div>
+		<div class="input-group">
+			<input type="email" class="form-control" placeholder="Email">
+			
+		</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+        <button type="button" class="btn btn-primary">Enregistrer</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Competence-->
+<div class="modal fade" id="competenceModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document" >
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Compétences</h4>
+      </div>
+      <div class="modal-body"  >
+		<b>Le droit Fiscal</b><br>
+		<p>Lors de dossiers relatifs au contentieux fiscal, à la T.V.A, la fiscalité des particuliers, la fiscalité immobilière ou encore le patrimoine.</p>
+		
+		<b>Le droit du Travail</b><br>
+		<p>Il traite de dossiers liés au licenciement, à la rupture conventionnelle, aux contrats de travail, à la faute professionnelle, aux heures supplémentaires ainsi qu'aux cas de harcèlement notamment. Il vous assure conseil et représentation devant le Conseil des Prud'hommes.</p>
+		
+		<b>Le droit Commercial et de la concurrence</b><br>
+		<p>En matière de cession de fonds de commerce, de rédaction de contrats (avec les partenaires, clients, prestataires ou fournisseurs), de responsabilités civile et pénale ainsi que de recouvrement. Il vous propose à ce titre conseils et assistance devant le Tribunal de commerce, le Tribunal de grande instance et Cour d’appel notamment.</p>
+		
+		<b>Le droit Immobilier</b><br>
+		<p>Pour toute question liée aux droit de la construction, baux d'habitation et baux commerciaux, à la vente immobilière et droit locatif (rapport locatif entre propriétaires ou locataires, procédure d’expulsion, assignation de locataire...).</p>
+		
+		<b>Le droit des affaires</b><br>
+		<p>Pour tous dossiers relevant de la création et du développement de l’entreprise, des procédures de prévention, de sauvegarde, de redressement ou de liquidation judiciaire, de la négociation et la rédaction d'actes ainsi que des formalités de cessions et acquisitions de parts sociales et du droit des contrats.</p>
+		
+		<b>Le droit Social</b><br>
+		<p>Pour tous dossiers relatifs à la santé et sécurité au travail, au droit de la sécurité sociale, à l'épargne salariale, à la gestion de la mobilité professionnelle ainsi qu'à la contestation d'une maladie professionnelle. Il vous assure conseil et assistance devant le Tribunal des Affaires de la Sécurité Sociale.</p>
+		
+		
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--Information-->
+<div class="modal fade" id="modalInfo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document" >
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Informations</h4>
+      </div>
+      <div class="modal-body"  >
+		<b>Premier rendez-vous gratuit</b><br>
+		<b> Paiement en plusieurs fois</b><br>
+		<b> Taux horaire : Convention d'honoraires</b><br>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+      </div>
+    </div>
+  </div>
+</div
+
+
+
+
+
+
